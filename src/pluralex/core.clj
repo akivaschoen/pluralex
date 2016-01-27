@@ -2,10 +2,12 @@
   (:require [clojure.string :as str]))
 
 (def ^:private unchanging-words
-  (map str '(children
+  (map str '(armor
+             children
+             corn
              deer
-             information
              equipment
+             information
              fish
              jeans
              men
@@ -19,6 +21,7 @@
              quinoa
              rice
              sheep
+             snow
              spaghetti
              weaponry
              women)))
