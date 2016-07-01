@@ -31,6 +31,7 @@
    "buffalo" "buffaloes"
    "bus" "busses"
    "child" "children"
+   "diagnosis" "diagnoses"
    "goose" "geese"
    "matrix" "matrices"
    "mouse" "mice"
