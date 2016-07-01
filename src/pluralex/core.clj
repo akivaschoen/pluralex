@@ -49,6 +49,7 @@
     (cond
       (some #{w'} unchanging-words) w'
       (contains? irregular-words w') (irregular-words w')
+      (str/ends-with? w' "es") w'
       (str/ends-with? w' "ch") (add-plural w' 0 "es")
       (str/ends-with? w' "s") (add-plural w' 0 "es")
       (str/ends-with? w' "x") (add-plural w' 0 "es")
