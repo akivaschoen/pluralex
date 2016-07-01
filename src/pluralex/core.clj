@@ -51,7 +51,8 @@
       (contains? irregular-words w') (irregular-words w')
       (str/ends-with? w' "es") w'
       (str/ends-with? w' "ch") (add-plural w' 0 "es")
-      (str/ends-with? w' "s") (add-plural w' 0 "es")
+      (str/ends-with? w' "ss") (add-plural w' 0 "es")
+      (str/ends-with? w' "s") w'
       (str/ends-with? w' "x") (add-plural w' 0 "es")
       (str/ends-with? w' "zz") (add-plural w' 0 "es")
       (str/ends-with? w' "z") (add-plural w' 0 "zes")
